@@ -34,11 +34,11 @@
   font-weight: 600;
 }
 .active {
-  background: #ededed;
+  background: #F4F2ED;
 }
 
 .nav-link:hover {
-  background-color: #ededed;
+  background-color: #F4F2ED;
   border-radius: 30px;
 }
 
