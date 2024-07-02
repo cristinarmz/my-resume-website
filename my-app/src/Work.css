@@ -9,7 +9,7 @@
     margin: 0 auto;
     display: grid;
     justify-content: space-between;
-    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+    grid-template-columns: repeat(3, 1fr); /* Two columns layout */
     gap: 20px;
   }
   

@@ -3,7 +3,6 @@
 import React from 'react';
 import './Work.css'; // Import CSS file for component styling
 import Card from './Card'; // Assuming you have a Card component
-import Fondo from '../src/assets/work-1.png';
 
 const Work = () => {
   // Assuming you have an array of work items or data
@@ -12,23 +11,22 @@ const Work = () => {
       id: 1,
       title: 'Software Development Company',
       description: 'Description of Project 1',
-      imageUrl: {Fondo}, // Replace with actual image path
+      imageUrl: '/images/dacodes1.png', // Assuming you move Fondo to public/images/
     },
     {
       id: 2,
       title: 'Project 2',
       description: 'Description of Project 2',
-      imageUrl: '/images/project2.jpg', // Replace with actual image path
+      imageUrl: '/images/viralco.png',
     },
     {
-        id: 3,
-        title: 'Project 3',
-        description: 'Description of Project 3',
-        imageUrl: '/images/project2.jpg', // Replace with actual image path
-      },
-
-    // Add more work items as needed
+      id: 3,
+      title: 'Project 3',
+      description: 'Description of Project 3',
+      imageUrl: '/images/everleather.png',
+    },
   ];
+  
 
   return (
     <section className="work">
