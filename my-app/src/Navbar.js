@@ -1,8 +1,6 @@
-// src/Navbar.js
-
 import React from 'react';
-import './Navbar.css'; // Import the CSS file
-import '../src/assets/favicon-cris.png';
+import './Navbar.css';
+import favicon from '../src/assets/favicon-cris.png'; // Adjusted import path
 
 const Navbar = () => {
   return (
@@ -11,16 +9,15 @@ const Navbar = () => {
         <div className="nav-left">
           <a href="/" className="nav-link">Home</a>
           <a href="/about" className="nav-link">About</a>
-          <a href="/services" className="nav-link">Services</a>
         </div>
         <div className="nav-center">
           <a href="/" className="nav-brand">
-            <img src="../" alt="logo" className="brand-logo" />
+            <img src={favicon} alt="logo" className="brand-logo" />
           </a>
         </div>
         <div className="nav-right">
-          <a href="/portfolio" className="nav-link">Portfolio</a>
-          <a href="/contact" className="nav-link">Contact</a>
+          <a href="/portfolio" className="nav-link">Work</a>
+          <a href="/contact" className="nav-link">Resume</a>
         </div>
       </div>
     </nav>

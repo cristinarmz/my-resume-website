@@ -1,52 +1,52 @@
-/* Navbar.css */
-
 .navbar {
-    background: #fff;
-    position: sticky;
-    top: 0;
-    font-weight: 600;
-    font-family: manrope, sans-serif;
-    padding: 0;
-    border-bottom: 1px solid #d6d6db;
-    z-index: 99999999;
-  }
-  
-  .navbar .container {
-    max-width: 1240px;
-    display: flex;
-    width: 100%;
-    margin: auto;
-    padding: 0 32px;
-  }
-  
-  .navbar-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-link {
-    text-decoration: none;
-    color: #333;
-    padding: 10px 15px;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-link:hover,
-  .nav-link.active {
-    color: #007bff;
-  }
-  
-  .navbar-toggler {
-    border: none;
-    background: transparent;
-    cursor: pointer;
-  }
-  
-  .brand_logo {
-    vertical-align: middle;
-  }
-  
+  background: #fff;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid #d6d6db;
+  padding: 15px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+.active {
+  background: #ededed;
+}
+
+.nav-link:hover {
+  background-color: #ededed;
+  border-radius: 30px;
+}
+
+.brand-logo {
+  height: 40px; /* Adjust height as necessary */
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size:16px;
+}
