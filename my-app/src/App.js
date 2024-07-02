@@ -13,8 +13,6 @@ function App() {
       <div className="content">
         <Section1 />
         <Work />
-        
-        <p>Scroll down to see the navbar stick at the top.</p>
       </div>
     </div>
   );

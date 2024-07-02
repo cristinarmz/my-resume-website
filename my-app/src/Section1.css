@@ -2,7 +2,6 @@
 
 .section1 {
   padding: 20px;
-  background-color: #f0f0f0;
   margin-bottom: 20px;
 }
 
@@ -13,13 +12,23 @@
   
 }
 
+
+
+
+@media (max-width: 768px) {
+  .columns {
+    flex-direction: column;
+  }
+
+}
+
+
 .column {
   flex: 1;
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  border: none;
   text-align: left; 
   justify-content: center;
 }

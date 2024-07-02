@@ -1,5 +1,5 @@
 .navbar {
-  background: #fff;
+  background-color: #FCF9F5;
   position: sticky;
   top: 0;
   width: 100%;
@@ -34,11 +34,11 @@
   font-weight: 600;
 }
 .active {
-  background: #F4F2ED;
+  background: #F4F2EC;
 }
 
 .nav-link:hover {
-  background-color: #F4F2ED;
+  background-color: #F4F2EC;
   border-radius: 30px;
 }
 
