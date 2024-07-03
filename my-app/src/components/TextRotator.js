@@ -4,11 +4,11 @@ import './TextRotator.css';
 const TextRotator = () => {
   const words = [
     "product design",
-    "marketing design",
+    "digital marketing",
     "web development",
-    "iOS development",
+    "motion graphics",
     "UX research",
-    "building teams"
+    "branding"
   ];
 
   const [currentWordIndex, setCurrentWordIndex] = useState(0);

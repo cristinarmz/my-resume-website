@@ -4,6 +4,7 @@ import React from 'react';
 import './Section1.css'; // Import Section1 CSS
 import drawingCris from '../assets/drawing-cris.svg';
 import TextRotator from './TextRotator';
+import Work from './Work';
 
 
 const Section1 = () => {
@@ -21,9 +22,12 @@ const Section1 = () => {
           <img src={drawingCris} alt="cris"/>
         </div>
       </div>
+      <Work />
     </div>
   
   );
 };
 
 export default Section1;
+
+
