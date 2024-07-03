@@ -31,6 +31,7 @@ function App() {
         {renderSection()}
       </div>
       <Footer />
+  
     </div>
   );
 }

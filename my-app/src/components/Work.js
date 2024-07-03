@@ -16,77 +16,77 @@ const Work = () => {
     },
     {
       id: 2,
-      title: 'Project 2',
+      title: 'Marketing Agency Website',
       description: 'Description of Project 2',
       imageUrl: '/images/viralco.png',
       color: '#EA4335' // Color for this card
     },
     {
       id: 3,
-      title: 'Project 3',
+      title: 'Luxury Leather Repair Company',
       description: 'Description of Project 3',
       imageUrl: '/images/everleather.png',
       color: '#E07D69' // Color for this card
     },
     {
         id: 4,
-        title: 'Project 3',
+        title: 'Holistic Coach Platform',
         description: 'Description of Project 3',
         imageUrl: '/images/rosysandoval.png',
         color: '#C32361' // Color for this card
       },
       {
         id: 5,
-        title: 'Project 3',
+        title: 'NGO Crowdfunding & Website',
         description: 'Description of Project 3',
         imageUrl: '/images/mexicoazul.png',
         color: '#3F96FC' // Color for this card
       },
       {
         id: 6,
-        title: 'Project 3',
+        title: 'Wedding Invitation',
         description: 'Description of Project 3',
         imageUrl: '/images/ayc.png',
         color: '#8A985D' // Color for this card
       },
       {
         id: 7,
-        title: 'Project 3',
+        title: 'Tech Podcast',
         description: 'Description of Project 3',
         imageUrl: '/images/holamundo.png',
         color: '#8C2CD3' // Color for this card
       },
        {
         id: 8,
-        title: 'Project 3',
+        title: 'Internal Knowledge Hub Platform',
         description: 'Description of Project 3',
         imageUrl: '/images/dacodes2.png',
         color: '#15D6CF' // Color for this card
       },
           {
         id: 9,
-        title: 'Project 3',
+        title: 'Pop Singers’ Website',
         description: 'Description of Project 3',
         imageUrl: '/images/prez.png',
         color: '#F92056' // Color for this card
       },
       {
         id: 10,
-        title: 'Project 3',
+        title: 'Swimwear E-Commerce',
         description: 'Description of Project 3',
         imageUrl: '/images/sela.png',
         color: '#AC322E' // Color for this card
       },
       {
         id: 11,
-        title: 'Project 3',
+        title: 'Global network of Accountants',
         description: 'Description of Project 3',
         imageUrl: '/images/iecnet.png',
         color: '#013068' // Color for this card
       },
       {
         id: 12,
-        title: 'Project 3',
+        title: 'Baby Clothing E-Commerce',
         description: 'Description of Project 3',
         imageUrl: '/images/bicos.png',
         color: '#996989' // Color for this card
