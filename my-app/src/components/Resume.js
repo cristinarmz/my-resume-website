@@ -6,26 +6,20 @@ import './Resume.css'; // Import CSS file for component styling
 const Resume = () => {
   return (
     <section className="resume">
-      <h1>John Doe</h1>
-      <p>Email: john.doe@example.com</p>
-      <p>Phone: (123) 456-7890</p>
-      <p>Location: New York, NY</p>
+      <h1>Cristina Ramirez</h1>
       
-      <h2>Professional Summary</h2>
+      <h2>Summary</h2>
       <p>
-        Experienced UX/UI Product Designer with a strong background in SEO and SEM best practices. 
-        Skilled in creating intuitive, visually appealing interfaces optimized for both users and search engines. 
-        Proven track record of designing for conversion and driving traffic.
+      Dedicated front-end developer with over 6 years of experience in building and maintaining responsive web applications. Proficient in modern web technologies and frameworks, with a strong focus on creating seamless user experiences and efficient code.
       </p>
 
       <h2>Experience</h2>
       <div className="experience-item">
-        <h3>Senior UX/UI Designer</h3>
-        <p>ABC Company | Jan 2020 - Present</p>
+        <h3>Product Designer</h3>
+        <p>Hakuna | Nov '23 - Present</p>
         <ul>
-          <li>Led design projects from concept to completion, ensuring a user-centric approach.</li>
-          <li>Collaborated with developers and marketing teams to optimize web and mobile interfaces for SEO and SEM.</li>
-          <li>Conducted user research and testing to inform design decisions and improve user satisfaction.</li>
+          <li>Created design concepts for the company's brand, translating brand values and messaging into visually compelling assets for social media and concert ads.</li>
+          
         </ul>
       </div>
       <div className="experience-item">
@@ -40,7 +34,7 @@ const Resume = () => {
 
       <h2>Education</h2>
       <div className="education-item">
-        <h3>Bachelor of Science in Computer Science</h3>
+        <h3>Bachelor in Communications</h3>
         <p>University of Technology | Graduated May 2017</p>
       </div>
 

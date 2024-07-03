@@ -16,7 +16,7 @@ const TextRotator = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
-    }, 2000); // Change word every 2 seconds
+    }, 1000); // Change word every 2 seconds
 
     return () => clearInterval(intervalId);
   }, [words.length]);
