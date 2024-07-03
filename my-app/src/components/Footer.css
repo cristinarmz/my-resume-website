@@ -1,0 +1,51 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .footer-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-info,
+  .social-icons,
+  .resume-download {
+    width: 100%;
+  }
+  
+  .contact-info p {
+    margin: 5px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .resume-download button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .resume-download button:hover {
+    background-color: #45a049;
+  }
+  
