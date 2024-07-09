@@ -76,7 +76,7 @@ const Work = () => {
         title: 'Pop Singers’ Website',
         description: 'View Website',
         imageUrl: '/images/prez.png',
-        url: 'https://www.everleather.co',
+        url: 'https://www.lasprez.com',
         color: '#F92056' 
       },
       {
