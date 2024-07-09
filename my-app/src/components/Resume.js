@@ -45,7 +45,6 @@ const Resume = () => {
         <li>Responsive Web Design</li>
         <li>User Research & Testing</li>
         <li>Adobe Creative Suite</li>
-        <li>Sketch</li>
         <li>Figma</li>
         <li>HTML/CSS</li>
         <li>JavaScript</li>
