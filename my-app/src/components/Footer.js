@@ -18,6 +18,7 @@ const Footer = () => {
         <div className="contact-info">
           <p><FontAwesomeIcon icon={faEnvelope} /> crisr3724@gmail.com </p>
           <p><FontAwesomeIcon icon={faPhone} /> +52 5555045330</p>
+          <p>Made by me </p>
         </div>
       </div>
       <div className="footer-column">
@@ -29,6 +30,7 @@ const Footer = () => {
       <div className="footer-column">
         <div className="resume-download">
           <button onClick={handleDownload}>Download Resume (PDF)</button>
+      
         </div>
       </div>
     </footer>
