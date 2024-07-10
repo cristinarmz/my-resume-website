@@ -6,14 +6,13 @@ const Resume = () => {
   return (
     <section className="resume">
       <div className="left-section">
-        
+        <h2>Work Experience 👩🏻‍💻</h2>
           < CustomizedTimeline />
         
       </div>
       <div className="right-section">
-        <h1>Cristina Ramirez</h1>
         
-        <h2>Summary</h2>
+        <h2>Other Experience</h2>
         <p>
           Dedicated front-end developer with over 6 years of experience in building and maintaining responsive web applications. Proficient in modern web technologies and frameworks, with a strong focus on creating seamless user experiences and efficient code.
         </p>

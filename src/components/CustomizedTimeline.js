@@ -14,74 +14,74 @@ export default function LeftAlignedTimeline() {
       <TimelineItem>
       <TimelineOppositeContent>
           <Typography variant="body2" fontWeight="bold">
-            2017
+            2023-2024
           </Typography>
           </TimelineOppositeContent>
         <TimelineSeparator >
           <TimelineDot sx={{ bgcolor: '#B278F1' }} />
           <TimelineConnector sx={{ bgcolor: '#B278F1' }}/>
         </TimelineSeparator>
-        <TimelineContent>Eat</TimelineContent>
+        <TimelineContent>Front-end Developer & UX/UI • ViralCo</TimelineContent>
       </TimelineItem>
       <TimelineItem>
       <TimelineOppositeContent>
           <Typography variant="body2" fontWeight="bold">
-            2017
+            2020-2023
           </Typography>
           </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot sx={{ bgcolor: '#B278F1' }} />
           <TimelineConnector sx={{ bgcolor: '#B278F1' }} />
         </TimelineSeparator>
-        <TimelineContent>Code</TimelineContent>
+        <TimelineContent>Front-end Developer & UX/UI • DaCodes</TimelineContent>
       </TimelineItem>
       <TimelineItem>
       <TimelineOppositeContent>
           <Typography variant="body2" fontWeight="bold">
-            2017
+            2019-2020
           </Typography>
           </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot sx={{ bgcolor: '#B278F1' }} />
           <TimelineConnector sx={{ bgcolor: '#B278F1' }} />
         </TimelineSeparator>
-        <TimelineContent>Sleep</TimelineContent>
+        <TimelineContent>Front-end Developer • ECCHO</TimelineContent>
       </TimelineItem>
       <TimelineItem>
       <TimelineOppositeContent>
           <Typography variant="body2" fontWeight="bold">
-            2017
+            2018
           </Typography>
           </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot sx={{ bgcolor: '#B278F1' }}  />
           <TimelineConnector sx={{ bgcolor: '#B278F1' }} />
         </TimelineSeparator>
-        <TimelineContent>Meeting</TimelineContent>
+        <TimelineContent>Product Designer • LaBrand</TimelineContent>
       </TimelineItem>
       <TimelineItem>
       <TimelineOppositeContent>
           <Typography variant="body2" fontWeight="bold">
-            2017
+            Summer 2018
           </Typography>
           </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot sx={{ bgcolor: '#B278F1' }}  />
           <TimelineConnector sx={{ bgcolor: '#B278F1' }} />
         </TimelineSeparator>
-        <TimelineContent>Lunch</TimelineContent>
+        <TimelineContent>Attractions Internship • Walt Disney World</TimelineContent>
       </TimelineItem>
       <TimelineItem>
       <TimelineOppositeContent>
           <Typography variant="body2" fontWeight="bold">
-            2017
+            2017-2018
           </Typography>
           </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot sx={{ bgcolor: '#B278F1' }}  />
           <TimelineConnector sx={{ bgcolor: '#B278F1' }} />
         </TimelineSeparator>
-        <TimelineContent>Design</TimelineContent>
+        <TimelineContent>Multimedia Designer • Random Box Agency</TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineOppositeContent>
@@ -93,7 +93,7 @@ export default function LeftAlignedTimeline() {
           <TimelineDot sx={{ bgcolor: '#B278F1' }} />
           {/* Last item does not need TimelineConnector */}
         </TimelineSeparator>
-        <TimelineContent>Casting Agency Internship</TimelineContent>
+        <TimelineContent>Casting Internship • Ink Entourage</TimelineContent>
         
       </TimelineItem>
     </Timeline>
